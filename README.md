@@ -18,7 +18,7 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 - **Styling**: Tailwind CSS
 - **Icons**: Lucide React
 - **Build Tool**: Create React App
-- **Deployment**: Ready for Vercel/Netlify
+- **Deployment**: Vercel
 
 ## 📦 Installation
 
