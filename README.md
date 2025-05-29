@@ -209,9 +209,9 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 If you have any questions or need help customizing the portfolio, feel free to reach out:
 
-- Email: your.email@example.com
-- LinkedIn: [your-profile](https://linkedin.com/in/yourusername)
-- GitHub: [yourusername](https://github.com/yourusername)
+- Email: ignazio.balistreri@code.berlin
+- LinkedIn: [your-profile](https://linkedin.com/in/ignazio-balistreri)
+- GitHub: [yourusername](https://github.com/Ignazio-00)
 
 ---
 
