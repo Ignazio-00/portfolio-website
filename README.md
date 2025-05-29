@@ -97,7 +97,7 @@ Update the following in `public/index.html`:
 
 ## 🚀 Deployment
 
-### Vercel (Recommended)
+### Vercel
 
 1. Install Vercel CLI:
 
@@ -111,16 +111,6 @@ npm i -g vercel
 npm run build
 vercel --prod
 ```
-
-### Netlify
-
-1. Build the project:
-
-```bash
-npm run build
-```
-
-2. Drag and drop the `build` folder to [Netlify](https://netlify.com)
 
 ### GitHub Pages
 
