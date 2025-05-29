@@ -3,31 +3,202 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0ea5e9" />
+    <meta name="color-scheme" content="light dark" />
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Ignazio Balistreri - Full Stack Developer | React, TypeScript & Node.js Expert</title>
+    <meta name="title" content="Ignazio Balistreri - Full Stack Developer | React, TypeScript & Node.js Expert" />
+    <meta name="description" content="Experienced Full Stack Developer from Berlin, Germany. Specialized in React, TypeScript, Node.js, and modern web technologies. Former Porsche AG intern with expertise in creating scalable, performant web applications." />
+    <meta name="keywords" content="Ignazio Balistreri, Full Stack Developer, React Developer, TypeScript, Node.js, Web Development, Frontend, Backend, Berlin, Germany, Porsche AG, CODE University, Portfolio, Software Engineer" />
+    <meta name="author" content="Ignazio Balistreri" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="bingbot" content="index, follow" />
+    
+    <!-- Geographic and Location Meta Tags -->
+    <meta name="geo.region" content="DE-BE" />
+    <meta name="geo.placename" content="Berlin, Germany" />
+    <meta name="geo.position" content="52.520008;13.404954" />
+    <meta name="ICBM" content="52.520008, 13.404954" />
+    
+    <!-- Language and Content -->
+    <meta name="language" content="English" />
+    <meta name="content-language" content="en" />
+    <meta http-equiv="Content-Language" content="en" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Ignazio Balistreri Portfolio" />
+    <meta property="og:url" content="https://ignaziobalistreri.dev/" />
+    <meta property="og:title" content="Ignazio Balistreri - Full Stack Developer | React & TypeScript Expert" />
+    <meta property="og:description" content="Experienced Full Stack Developer from Berlin. Former Porsche AG intern specializing in React, TypeScript, and modern web technologies. Building scalable, performant applications." />
+    <meta property="og:image" content="%PUBLIC_URL%/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:alt" content="Ignazio Balistreri - Full Stack Developer Portfolio" />
+    <meta property="og:locale" content="en_US" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@ignaziobalistreri" />
+    <meta name="twitter:creator" content="@ignaziobalistreri" />
+    <meta name="twitter:url" content="https://ignaziobalistreri.dev/" />
+    <meta name="twitter:title" content="Ignazio Balistreri - Full Stack Developer" />
+    <meta name="twitter:description" content="Full Stack Developer from Berlin specializing in React, TypeScript & Node.js. Former Porsche AG intern." />
+    <meta name="twitter:image" content="%PUBLIC_URL%/og-image.png" />
+    <meta name="twitter:image:alt" content="Ignazio Balistreri Portfolio" />
+    
+    <!-- LinkedIn -->
+    <meta property="article:author" content="https://linkedin.com/in/ignaziobalistreri" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://ignaziobalistreri.dev/" />
+    
+    <!-- Alternative URLs -->
+    <link rel="alternate" hreflang="en" href="https://ignaziobalistreri.dev/" />
+    <link rel="alternate" hreflang="x-default" href="https://ignaziobalistreri.dev/" />
+    
+    <!-- Preconnect to external domains for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+    
+    <!-- DNS Prefetch for better performance -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+    
+    <!-- Icons and Manifest -->
+    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <link rel="mask-icon" href="%PUBLIC_URL%/safari-pinned-tab.svg" color="#0ea5e9" />
+    <meta name="msapplication-TileColor" content="#0ea5e9" />
+    <meta name="msapplication-config" content="%PUBLIC_URL%/browserconfig.xml" />
+    
+    <!-- Structured Data - Person Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ignazio Balistreri",
+      "givenName": "Ignazio",
+      "familyName": "Balistreri",
+      "jobTitle": "Full Stack Developer",
+      "description": "Experienced Full Stack Developer specializing in React, TypeScript, Node.js, and modern web technologies. Former Software Engineering intern at Porsche AG.",
+      "url": "https://ignaziobalistreri.dev",
+      "image": "https://ignaziobalistreri.dev/profile-image.jpg",
+      "email": "ignazio.balistreri@example.com",
+      "telephone": "+49-XXX-XXXXXXX",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Berlin",
+        "addressCountry": "Germany"
+      },
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "CODE University of Applied Sciences",
+          "location": "Berlin, Germany"
+        }
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelance"
+      },
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Full Stack Developer",
+        "occupationLocation": {
+          "@type": "City",
+          "name": "Berlin"
+        },
+        "skills": [
+          "React", "TypeScript", "Node.js", "JavaScript", "HTML5", "CSS3", 
+          "Tailwind CSS", "Next.js", "Express.js", "MongoDB", "PostgreSQL", 
+          "Git", "Docker", "AWS", "REST APIs", "GraphQL"
+        ]
+      },
+      "sameAs": [
+        "https://github.com/ignaziobalistreri",
+        "https://linkedin.com/in/ignaziobalistreri",
+        "https://twitter.com/ignaziobalistreri"
+      ],
+      "knowsAbout": [
+        "Web Development", "Software Engineering", "Frontend Development", 
+        "Backend Development", "Full Stack Development", "React", "TypeScript", 
+        "Node.js", "JavaScript", "Responsive Design", "Performance Optimization"
+      ]
+    }
+    </script>
+    
+    <!-- Structured Data - Website Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Ignazio Balistreri Portfolio",
+      "description": "Portfolio website of Ignazio Balistreri, Full Stack Developer",
+      "url": "https://ignaziobalistreri.dev",
+      "author": {
+        "@type": "Person",
+        "name": "Ignazio Balistreri"
+      },
+      "inLanguage": "en-US",
+      "copyrightYear": "2024",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://ignaziobalistreri.dev/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    
+    <!-- Structured Data - Portfolio/Creative Work -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "name": "Ignazio Balistreri Developer Portfolio",
+      "description": "A showcase of web development projects and professional experience",
+      "author": {
+        "@type": "Person",
+        "name": "Ignazio Balistreri"
+      },
+      "dateCreated": "2024",
+      "inLanguage": "en-US",
+      "genre": "Portfolio",
+      "about": [
+        "Web Development",
+        "Software Engineering", 
+        "Frontend Development",
+        "Backend Development"
+      ]
+    }
+    </script>
+    
+    <!-- Performance hints -->
+    <link rel="preload" href="/fonts/inter-var.woff2" as="font" type="font/woff2" crossorigin />
+    
+    <!-- Security headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>
+      <div style="text-align: center; padding: 50px; font-family: Arial, sans-serif;">
+        <h1>JavaScript Required</h1>
+        <p>This portfolio website requires JavaScript to function properly. Please enable JavaScript in your browser settings.</p>
+        <p>If you're having trouble, you can contact me directly at: 
+          <a href="mailto:ignazio.balistreri@example.com">ignazio.balistreri@example.com</a>
+        </p>
+      </div>
+    </noscript>
     <div id="root"></div>
     <!--
       This HTML file is a template.
