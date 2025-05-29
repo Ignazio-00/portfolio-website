@@ -25,7 +25,7 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/portfolio-website.git
+git clone https://github.com/Ignazio-00/portfolio-website.git
 cd portfolio-website
 ```
 
@@ -200,8 +200,8 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 If you have any questions or need help customizing the portfolio, feel free to reach out:
 
 - Email: ignazio.balistreri@code.berlin
-- LinkedIn: [your-profile](https://linkedin.com/in/ignazio-balistreri)
-- GitHub: [yourusername](https://github.com/Ignazio-00)
+- LinkedIn: Ignazio Balistreri (https://linkedin.com/in/ignazio-balistreri)
+- GitHub: Ignazio-00 (https://github.com/Ignazio-00)
 
 ---
 
