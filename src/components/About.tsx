@@ -71,8 +71,8 @@ const About: React.FC = () => {
   const stats = [
     {
       icon: <Award className="w-6 h-6" />,
-      value: "10+",
-      label: "Projects Completed",
+      value: "1st",
+      label: "Intel Liftoff Challenge Winner",
       color: "text-primary-600",
     },
     {
@@ -150,15 +150,17 @@ const About: React.FC = () => {
                 <p>
                   I'm a passionate full stack developer with 3+ years of
                   experience creating digital solutions that make a difference.
-                  I love working with modern technologies and am always eager to
-                  learn new skills.
+                  Recently won 1st place in the Intel Liftoff Challenge at START
+                  Hack 2024 with our AI-powered employee companion app for Bell
+                  Food Group.
                 </p>
 
                 <p>
-                  When I'm not coding, you can find me exploring new
-                  technologies, following my curiosities, or enjoying outdoor
-                  activities. I believe in writing clean, maintainable code and
-                  creating user experiences that delight.
+                  I love working with modern technologies and am always eager to
+                  learn new skills. When I'm not coding, you can find me
+                  exploring new technologies, participating in hackathons, or
+                  enjoying outdoor activities. I believe in writing clean,
+                  maintainable code and creating user experiences that delight.
                 </p>
               </div>
 

@@ -23,6 +23,36 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
+      title: "BellBoost AI Companion",
+      description:
+        "Winner of Intel Liftoff Challenge at START Hack 2024 - AI-powered employee companion app.",
+      longDescription:
+        "Full-stack React Native mobile app with AI chat functionality, multi-language support, and employee matching system. Built for Bell Food Group to enhance employee experience and integration. Features real-time chat, language learning, health advice, and coworker matching with AI assistance.",
+      technologies: [
+        "React Native",
+        "Expo",
+        "Python",
+        "FastAPI",
+        "Poetry",
+        "TypeScript",
+        "Predictionguard LLM",
+        "Chatengine IO",
+        "Docker",
+      ],
+      image: "/images/projects/bellboost-ai.png",
+      liveUrl:
+        "https://github.com/Hannes221/bellfood_start_2024/assets/113210660/276287c4-3b45-48e8-9c26-2d5b7f78ca76",
+      githubUrl: "https://github.com/Hannes221/bellfood_start_2024",
+      featured: true,
+      category: "Mobile App",
+      stats: {
+        stars: 2,
+        forks: 0,
+        views: "500+",
+      },
+    },
+    {
+      id: 2,
       title: "Journal AI App",
       description: "A full-stack Journal AI companion app.",
       longDescription:
@@ -50,7 +80,7 @@ const Projects: React.FC = () => {
       },
     },
     {
-      id: 2,
+      id: 3,
       title: "Real Estate Radar App",
       description: "A property listing platform.",
       longDescription:
@@ -76,7 +106,7 @@ const Projects: React.FC = () => {
       },
     },
     {
-      id: 3,
+      id: 4,
       title: "Automated Pharmacy",
       description:
         "A prescription management platform that enables patients to manage their medical prescriptions digitally.",
