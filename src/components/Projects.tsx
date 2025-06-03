@@ -39,9 +39,9 @@ const Projects: React.FC = () => {
         "Chatengine IO",
         "Docker",
       ],
-      image: "/images/projects/bellboost-ai.png",
+      image: "/images/projects/bellboost-team.png",
       liveUrl:
-        "https://github.com/Hannes221/bellfood_start_2024/assets/113210660/276287c4-3b45-48e8-9c26-2d5b7f78ca76",
+        "https://community.intel.com/t5/Blogs/Intel/We-Are-Intel/The-AI-SpeedRacers-Quest-at-Start-Hack-2024-with-Intel-Liftoff/post/1582160",
       githubUrl: "https://github.com/Hannes221/bellfood_start_2024",
       featured: true,
       category: "Mobile App",
@@ -132,6 +132,32 @@ const Projects: React.FC = () => {
         stars: 67,
         forks: 15,
         views: "1.2k",
+      },
+    },
+    {
+      id: 5,
+      title: "Hit Your Protein",
+      description:
+        "Scientific daily protein calculator built with React and TypeScript.",
+      longDescription:
+        "A simple, scientific daily protein calculator that provides personalized protein needs based on current sports nutrition research. Features dual unit support (kg/lb), three goal categories (maintain, build, maximize), instant calculations, and meal distribution recommendations. Built with React 18, TypeScript, and TailwindCSS.",
+      technologies: [
+        "React",
+        "TypeScript",
+        "TailwindCSS",
+        "Vite",
+        "Lucide React",
+        "Vercel",
+      ],
+      image: "/images/projects/hit-your-protein.png",
+      liveUrl: "https://hit-your-protein.vercel.app/",
+      githubUrl: "https://github.com/Ignazio-00/hit-your-protein",
+      featured: false,
+      category: "Web App",
+      stats: {
+        stars: 1,
+        forks: 0,
+        views: "200+",
       },
     },
     // {
