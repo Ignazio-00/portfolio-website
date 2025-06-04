@@ -177,7 +177,6 @@ const Projects: React.FC = () => {
         "MySQL",
         "NextAuth.js",
         "AWS S3",
-        "Pusher",
         "Mantine",
         "Playwright",
         "Vercel",
