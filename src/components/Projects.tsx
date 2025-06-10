@@ -97,7 +97,7 @@ const Projects: React.FC = () => {
       image: "/images/projects/real-estate-radar.png", // Real Estate Radar website with blue header and property listings
       liveUrl: "https://real-estate-radar.vercel.app/",
       githubUrl: "https://github.com/Ignazio-00/RealEstateRadar",
-      featured: true,
+      featured: false,
       category: "Web App",
       stats: {
         stars: 89,
@@ -184,7 +184,7 @@ const Projects: React.FC = () => {
       image: "/images/projects/childright-app.png",
       liveUrl: "https://childright.vercel.app/",
       githubUrl: "https://github.com/Ignazio-00/childright",
-      featured: true,
+      featured: false,
       category: "Full Stack",
       stats: {
         stars: 1,
@@ -192,32 +192,6 @@ const Projects: React.FC = () => {
         views: "300+",
       },
     },
-    // {
-    //   id: 4,
-    //   title: "Social Media Dashboard",
-    //   description:
-    //     "Analytics dashboard for social media management with data visualization.",
-    //   longDescription:
-    //     "Comprehensive social media analytics platform with engagement metrics, content scheduling, audience insights, and performance tracking across multiple platforms.",
-    //   technologies: [
-    //     "Next.js",
-    //     "D3.js",
-    //     "Firebase",
-    //     "Tailwind CSS",
-    //     "REST APIs",
-    //   ],
-    //   image:
-    //     "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-    //   liveUrl: "https://demo-dashboard.com",
-    //   githubUrl: "https://github.com/yourusername/social-dashboard",
-    //   featured: false,
-    //   category: "Dashboard",
-    //   stats: {
-    //     stars: 156,
-    //     forks: 43,
-    //     views: "3.1k",
-    //   },
-    // },
   ];
 
   const ProjectCard: React.FC<{ project: Project }> = ({ project }) => (
@@ -266,30 +240,6 @@ const Projects: React.FC = () => {
             </div>
           </div>
         )}
-
-        {/* Hover Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-center justify-center gap-4">
-          <a
-            href={project.liveUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="p-3 bg-white/90 backdrop-blur-sm rounded-full text-neutral-800 hover:bg-white hover:scale-110 transition-all duration-200 shadow-large"
-            aria-label="View live demo"
-          >
-            <Eye size={20} />
-          </a>
-          {project.githubUrl && (
-            <a
-              href={project.githubUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-3 bg-white/90 backdrop-blur-sm rounded-full text-neutral-800 hover:bg-white hover:scale-110 transition-all duration-200 shadow-large"
-              aria-label="View source code"
-            >
-              <Github size={20} />
-            </a>
-          )}
-        </div>
 
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></div>
