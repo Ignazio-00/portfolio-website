@@ -414,7 +414,7 @@ const Projects: React.FC = () => {
         <div className="text-center">
           <div className="inline-flex flex-col sm:flex-row items-center gap-4">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/Ignazio-00"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-secondary"
