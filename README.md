@@ -191,10 +191,6 @@ The website is fully responsive with breakpoints:
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/portfolio-website/issues).
-
 ## 📧 Contact
 
 If you have any questions or need help customizing the portfolio, feel free to reach out:
