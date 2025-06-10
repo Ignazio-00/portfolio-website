@@ -116,7 +116,7 @@ const About: React.FC = () => {
                   <img
                     src="/images/profile/profile-photo.jpg"
                     alt="Ignazio Balistreri - Full Stack Developer"
-                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                    className="w-full h-full object-contain transition-transform duration-500 hover:scale-105"
                     onError={(e) => {
                       // Fallback to placeholder if image fails to load
                       const target = e.target as HTMLImageElement;
